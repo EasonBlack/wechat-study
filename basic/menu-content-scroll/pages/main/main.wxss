@@ -1,0 +1,26 @@
+.container {
+  display:flex;
+  flex-direction: row;
+  align-items:flex-start;
+  width:100%;
+}
+
+.left-menu {
+  width:80px;
+}
+.menu-item {
+  height:30px;
+  line-height:30px;
+  padding:0 5px; 
+}
+.menu-item.active {
+  background-color: red;
+}
+.right-content {
+  flex:1;
+}
+.content-item {
+  height:30px;
+  line-height:30px;
+  padding:0 5px;
+}
