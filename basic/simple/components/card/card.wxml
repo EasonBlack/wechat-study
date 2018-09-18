@@ -1,0 +1,7 @@
+
+<view >
+  <view>{{name}}</view>
+  <view>{{num}}</view>
+  <slot></slot>
+  <button bindtap='onTap'>Check</button>
+</view>

@@ -1,0 +1,13 @@
+
+<view class="">
+  <button bindtap='deleteItem'>Delete</button>
+  <view class='card-container'>
+    <block wx:for='{{items}}' wx:for-index="idx" wx:key="idx"  wx:for-item="item" >
+      <card class="card" bindcardTap='cardTap' name="{{item.name}}" num="{{item.num}}"
+      ></card>
+ 
+    </block>
+    
+  </view>
+  
+</view>
