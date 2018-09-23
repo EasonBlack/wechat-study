@@ -1,3 +1,4 @@
+const dayjs  = require('dayjs')
 
 Page({
   data: {
@@ -11,6 +12,7 @@ Page({
   },
 
   onReady() {
+    console.log(dayjs().format('YYYY-MM-DD'))
   },
 
   cardTap(obj) {

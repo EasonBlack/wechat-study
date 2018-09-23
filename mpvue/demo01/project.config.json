@@ -1,21 +1,16 @@
 {
-  "miniprogramRoot": "./",
-	"description": "",
-	"packOptions": {
-		"ignore": []
-	},
+	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": false,
-		"es6": true,
+		"urlCheck": true,
+		"es6": false,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
+	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
-	"libVersion": "2.2.3",
 	"appid": "wxee3a7fc913c791d9",
-	"projectname": "simple",
-	"isGameTourist": false,
+	"projectname": "demo01",
 	"condition": {
 		"search": {
 			"current": -1,
