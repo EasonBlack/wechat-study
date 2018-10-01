@@ -1,0 +1,12 @@
+
+<view class="image-container">
+  <view class='image-wrapper' bindtap='moveNext' 
+   >
+    <image class='image-item'  
+    wx:for="{{items}}" wx:key="name" mode="widthFix"  wx:for-index="index"
+    src="/images/{{item.name}}"
+    style="left: {{ (index + flag) * 100 + '%'}}" 
+    />
+   
+  </view>
+</view>

@@ -1,6 +1,10 @@
 {
   "pages":[
+    "pages/basicdom/basicdom",
+    "pages/infinitemove/infinitemove",
+    "pages/image/image",
     "pages/view1/view1"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

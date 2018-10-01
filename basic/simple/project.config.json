@@ -1,5 +1,5 @@
 {
-  "miniprogramRoot": "./",
+	"miniprogramRoot": "./",
 	"description": "",
 	"packOptions": {
 		"ignore": []
@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.2.3",
 	"appid": "wxee3a7fc913c791d9",
-	"projectname": "simple",
+	"projectname": "simple2",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

@@ -19,6 +19,13 @@ Page({
     console.log(obj.detail.name, obj.detail.num);
   },
 
+  jumpTo(e) {
+    let page = e.currentTarget.dataset.page;
+    wx.navigateTo({
+      url: `../${page}/${page}`
+    })
+  },
+
   deleteItem() {
     const self = this;
     wx.showModal({
