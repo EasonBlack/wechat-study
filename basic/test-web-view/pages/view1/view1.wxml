@@ -1,0 +1,4 @@
+<web-view src='xxxxx'
+bindmessage="test"
+></web-view>
+
