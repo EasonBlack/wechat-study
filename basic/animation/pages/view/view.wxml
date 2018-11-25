@@ -1,0 +1,12 @@
+
+<view class="h-100p" wx:if="{{!isContentDisplay}}">
+  <image class='h-100p w-100p' 
+  src="{{defaultImg}}"  
+  mode="scaleToFill"  
+  animation="{{animationData}}"></image>
+</view>
+<view class='h-100p opacity-0'  animation="{{animationContent}}">
+  <view class='h-100p content'>
+    Hello
+  </view>
+</view>

@@ -1,4 +1,2 @@
-<web-view src='xxxxx'
-bindmessage="test"
-></web-view>
+<web-view src='http://www.baidu.com'></web-view>
 

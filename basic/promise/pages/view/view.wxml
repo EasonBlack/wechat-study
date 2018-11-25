@@ -1,0 +1,7 @@
+
+
+<view class='h-100p'  animation="{{animation}}">
+  <view class='h-100p content'>
+    Hello
+  </view>
+</view>

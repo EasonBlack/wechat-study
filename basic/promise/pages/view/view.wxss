@@ -1,0 +1,11 @@
+page {
+  height:100%;
+}
+
+.content {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+  color: white;
+}
