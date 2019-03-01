@@ -1,0 +1,4 @@
+
+<view class="">
+  <view bindtap='toView2'>TO View2</view>
+</view>

@@ -1,0 +1,8 @@
+/* pages/calendar-view/calendar-view.wxss */
+
+.calendar-control {
+  display: flex;
+}
+.calendar-control view {
+  flex:1;
+}

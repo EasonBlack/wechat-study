@@ -1,0 +1,15 @@
+/* components/calendar/calendar.wxss */
+.date-list-wrapper {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.date-wrapper {
+  flex:1 0 14.28%;
+  max-width: 14.28%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  height:50px;
+}

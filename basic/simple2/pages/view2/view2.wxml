@@ -1,0 +1,5 @@
+
+<view>
+  <view>This is View2</view>
+  <view bindtap='toView1'>Back</view>
+</view>

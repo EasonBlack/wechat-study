@@ -1,0 +1,5 @@
+
+<view class='wrapper {{extraClass}}' bindtap="onDateTap">
+  <view class='day-title'>{{day}}</view>
+  <view class='day-num'>{{events.length ? events.length : ""}}</view>
+</view>

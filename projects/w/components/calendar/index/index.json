@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "week": "../week/week",
+    "date": "../date/date"
+  }
+}

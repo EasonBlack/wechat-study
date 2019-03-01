@@ -1,0 +1,16 @@
+/* components/calendar/week/week.wxss */
+
+.day-list-wrapper {
+  display:flex;
+  font-size: 12px;
+}
+
+.day-wrapper {
+  flex:1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:30px;
+  color: white;
+  background-color: steelblue;
+}

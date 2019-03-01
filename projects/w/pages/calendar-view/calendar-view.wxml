@@ -1,0 +1,14 @@
+<!--pages/calendar-view/calendar-view.wxml-->
+
+<view class='calendar-control'>
+  <view bindtap='onMonthChange' data-num="-1">Prev</view>
+  <view>{{year}}-{{month}}</view>
+  <view bindtap='onMonthChange' data-num="1">Next</view>
+</view>
+<calendar  
+year="{{year}}"  
+month="{{month}}"  
+events = "{{events}}"
+yearmonth="{{year + '-' + month}}" 
+/>
+<button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">授权</button>

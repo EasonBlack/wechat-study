@@ -1,0 +1,4 @@
+
+<view class='page-view' >
+  <button class='register-btn'  open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">授权</button>
+</view>

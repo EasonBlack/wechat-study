@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/view1/view1",
+    "pages/view2/view2"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

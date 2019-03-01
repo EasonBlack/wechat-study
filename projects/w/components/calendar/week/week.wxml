@@ -1,0 +1,5 @@
+<view class='day-list-wrapper'>
+  <view class='day-wrapper'  wx:for="{{days}}" wx:for-index="idx" wx:for-item="day" wx:key='idx'>
+    {{day}}
+  </view>
+</view>

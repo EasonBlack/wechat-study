@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/view/view",
+    "pages/calendar-view/calendar-view",
+    "pages/date-event/date-event"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

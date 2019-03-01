@@ -1,0 +1,3 @@
+<!--pages/date-event/date-event.wxml-->
+
+<view>{{date}}</view>

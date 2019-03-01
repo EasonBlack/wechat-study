@@ -1,0 +1,9 @@
+
+<week />
+<view class='date-list-wrapper' >
+  <date class='date-wrapper' 
+    day="{{d.day}}" start="{{start}}" month="{{month}}" extra-class="{{d.extraClass}}"
+    events="{{d.events}}"
+    wx:for="{{dates}}" wx:for-index="idx" wx:for-item="d"  wx:key="date"/> 
+</view>
+
